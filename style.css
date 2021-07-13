@@ -4,15 +4,89 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 /* top container */
+.top-container{
+    background-color: blue;
+}
 .top-items{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+.top-heading{
+    margin-left: 146px;
+    width: 485px;
+    margin-right: 102px;
+}
+.top-heading h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.top-banner{
+    margin-top: 135px;
     
-
-
 }
 .top-banner img{
     width: 556px;
     height: 438px;
+}
+/* ----------player container -------------*/
+.player-container{
+    margin-top: 43px;
+    width: 1050px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 170px;
+}
+.player{
+    width: 300px;
+    height: 448px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 27px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px
+}
+.player-banner img{
+    width: 300px;
+    height: 256px;
+}
+/* ------------------highlights container----------- */
+
+.highlights-items{
+    display: flex;
+    align-items: center;
+}
+.highlights-info{
+    width: 469px;
+    height: 309px;
+    margin-left: 182px ;
+    margin-top: 224px;
+    margin-right: 60px;
+}
+.highlights-banner img{
+    width: 567px;
+    height: 427px;
+    margin-top: 165px;
+    
+}
+.footer-container{
+    margin-left: 475px;
+    box-sizing: border-box;
+}
+.footer-banner img{
+    width: 483px;
+    height: 110px;
+}
+.fab, .fas{
+    text-align: center;
 }
