@@ -18,6 +18,10 @@ body{
     transition: 2s;
     color: orangered;
 }
+.btn:hover span{
+    color: #ffff00;
+    transition: 2s;
+}
 h2{
     font-size: 48px;
     font-weight: 700;
@@ -103,6 +107,61 @@ h3{
     margin-top: 165px;
     
 }
+/* ------------------Sign up Section -----------------*/
+.login-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.login-area{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+.login-area h2{
+    padding-bottom: 30px;
+    color: #fff;
+}
+.login-area input{
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding: 10px 5px;
+}
+/* --------------About container-------------  */
+.about-container{
+    margin-left: 60px;
+    margin-top: 120px
+}
+.about-container h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-group{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+}
+.about-info{
+    width: 300px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 27px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px 
+}
+.team-banner img{
+    width: 60px;
+    margin-left: 110px;
+}
+
+/* -----------------Footer section----------- */
 .footer-container{
     margin-top: 171px;
 }
@@ -159,7 +218,7 @@ h3{
     }
     .players{
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 26px;
+        margin-left: 36px;
     }
     .highlights-items {
         align-items: center;
@@ -174,7 +233,7 @@ h3{
         margin-right: 15px;
     }
     h2{
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 700;
         
     }
@@ -182,6 +241,12 @@ h3{
         width: 328px;
         height: 248px;
         margin: 0 16px;
+    }
+    .about-container{
+        margin-left: 16px;
+    }
+    .about-group{
+        grid-template-columns: repeat(1, 1fr);
     }
     .footer-container{
         margin-top: 43px;
@@ -227,9 +292,9 @@ h3{
     .player-container{
         width: 100%;
     }
-    .players{
+    .players, .about-group{
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 55px;
+        margin-left: 90px;
     }
     .player{
         width: 400px;
