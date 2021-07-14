@@ -12,6 +12,7 @@ body{
     padding: 5px 15px;
     border: 1px solid orangered;
     background-color: orangered;
+    margin-bottom: 15px;
 }
 .btn:hover{
     background-color: transparent;
@@ -213,6 +214,9 @@ h3{
         width: 329px;
         height: 259px;
     }
+    .btn{
+        margin-bottom: 40px;
+    }
     .player-container{
         width: 100%;
     }
@@ -240,7 +244,7 @@ h3{
     .highlights-banner img{
         width: 328px;
         height: 248px;
-        margin: 0 16px;
+        margin: 15px 16px;
     }
     .about-container{
         margin-left: 16px;
@@ -339,5 +343,81 @@ h3{
     .copyright{
         margin-left: 45px;
     }
+}
+/* -------------------Extra Large Tablet Device-------------------- */
 
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .top-container{
+        width: 100%;
+    }
+    .top-items{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 16px;
+    }
+    .top-heading{
+        width: 350px;
+    }
+    .top-heading h1{
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .top-banner{
+        margin-top: 50px;
+    }
+    .top-banner img{
+        width: 450px;
+        height: 320px;
+    }
+    .player-container{
+        width: 100%;
+    }
+    .players, .about-group{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 16px;
+        justify-content: space-evenly;
+    }
+    .player{
+        width: 300px;
+    }
+    .player img{
+        width: 300px;
+        height: 230px;
+    }
+    .highlights-items {
+        align-items: center;
+        flex-direction: column;
+        margin-left: 36px;
+    }
+    .highlights-info{
+        width: 330px;
+        height: 300px;
+        margin-left: 16px ;
+        margin-top: 60px;
+        margin-right: 15px;
+    }
+    h2{
+        font-size: 30px;
+        font-weight: 700;
+        
+    }
+    .highlights-banner img{
+        width: 328px;
+        height: 248px;
+        margin: 0 16px;
+    }
+    .footer-container{
+        margin-top: 43px;
+    }
+    .footer-banner img{
+        width: 250px;
+        height: 63px;
+    }
+    .icons{
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .copyright{
+        margin-left: 45px;
+    }
 }
